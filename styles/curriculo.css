@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.conteudo {
+    background-color: var(--cor-hover);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+}
+
+.categoria {
+    color: rgb(133, 133, 133);
+    font-size: 1rem;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+
+.curriculo__texto {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+}
+
+.nome { 
+    padding-left: 5.65rem;
+}
+
+.endereco {
+    padding-left: 4.1rem;
+}
+
+.telefone {
+    padding-left: 4.4rem;
+}
+
+.email {
+    padding-left: 5.95rem;
+}
+
+.nascimento {
+    padding-left: 2.8rem;
+}
+
+.cnh {
+    padding-left: 6.4rem;
+}
+
+.ano {
+    font-size: .8rem;
+    font-weight: 400;
+    padding-left: 2rem;
+}
+
+.formacao {
+    padding-left: .65rem;
+}
+
+.react {
+    padding-right: 5.4rem;
+}
+
+.js {
+    padding-right: 2.95rem;
+}
+
+.html {
+    padding-right: 2.1rem;
+}
+
+.java {
+    padding-right: 6.05rem;
+}
+
+.git {
+    padding-right: 2rem;
+}
+
+.mysql {
+    padding-right: 5.2rem;
+}
+
+.react, .js, 
+.html, .java, 
+.git, .mysql,
+.pt, .ing,
+.em, .cc {
+    color: rgb(133, 133, 133);
+}
+
+.pt {
+    padding-right: 2.8rem;
+}
+
+.ing {
+    padding-right: 5.1rem;
+}

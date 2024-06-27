@@ -59,35 +59,7 @@ h2 {
     padding-left: .65rem;
 }
 
-.react {
-    padding-right: 5.4rem;
-}
-
-.js {
-    padding-right: 2.95rem;
-}
-
-.html {
-    padding-right: 2.1rem;
-}
-
-.java {
-    padding-right: 6.05rem;
-}
-
-.git {
-    padding-right: 2rem;
-}
-
-.mysql {
-    padding-right: 5.2rem;
-}
-
-.react, .js, 
-.html, .java, 
-.git, .mysql,
-.pt, .ing,
-.em, .cc {
+.cinza{
     color: rgb(133, 133, 133);
 }
 

@@ -104,6 +104,24 @@ body {
     transition: 400ms;   
 }
 
+.apresentacao__links__navegacao-certificado {
+    display: flex;
+    justify-content: center;
+    width: 27%;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    transition: 400ms;
+}
+
+.apresentacao__links__navegacao-certificado:hover {
+    transform: scale(1.02);
+}
+
+
 .certificados {
     text-decoration: none;
     color: var(--cor-secundaria);

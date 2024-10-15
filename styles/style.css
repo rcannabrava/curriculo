@@ -3,7 +3,7 @@
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #ffffffda;
-    --cor-terciaria: #119094;
+    --cor-terciaria: rgb(17, 142, 146);
     --cor-hover: #161616;
 
     --fonte-primaria: "Krona One", sans-serif;
@@ -27,6 +27,7 @@ body {
 
 .header__menu {
     display: flex;
+    padding-bottom: 3rem;
     gap: 80px;
 }
 
@@ -44,7 +45,7 @@ body {
 }
 
 .apresentacao {
-    padding: 4% 15%;
+    padding: 0% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -137,6 +138,38 @@ body {
     width: 37%;
 }
 
+.container_portfolio {
+    text-align: center;
+    margin: 8rem;
+}
+
+.portfolio_titulo {
+    margin-bottom: 5rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+}
+
+.portfolio_links {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio_a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    border-radius: .7rem;
+    background-color: transparent;
+    padding: 4rem;
+    width: 100%;
+    margin-left: 4rem;
+    box-shadow: 4px 4px 10px 5px rgba(17, 142, 146, .4);
+}
+
+.fokus {
+    padding: 5rem 4rem;
+}
+
 .footer {
     background-color: var(--cor-terciaria);
     text-align: center;
@@ -150,7 +183,7 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     .header {
         padding: 6%;
     }
@@ -166,5 +199,17 @@ body {
 
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .portfolio_links {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .portfolio_a {
+        width: 70%;
+        margin-bottom: 3rem;
     }
 }

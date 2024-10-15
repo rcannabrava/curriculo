@@ -145,8 +145,9 @@ body {
 
 .portfolio_titulo {
     margin-bottom: 5rem;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
+    font-weight: 400;
 }
 
 .portfolio_links {

@@ -113,14 +113,10 @@ body {
 
 .apresentacao__links__navegacao-certificado {
     display: flex;
-    justify-content: center;
     width: 27%;
-    text-align: center;
-    font-size: 1.5rem;
-    text-decoration: underline;
+    text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
-    font-weight: 500;
     transition: 400ms;
 }
 
@@ -237,12 +233,16 @@ body {
 }
 
 @media (max-width: 500px) {
-    .portfolio_a img{
+    .portfolio_a img {
         width: 100%;
     }
     
-    .cinema img{
+    .cinema img {
         height: 100px;
         bottom: 20%;
+    }
+    
+    .apresentacao__links__navegacao-certificado {
+        
     }
 }

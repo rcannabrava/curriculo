@@ -12,6 +12,7 @@ h2 {
     font-size: 1.8rem;
     font-family: var(--fonte-primaria);
     font-weight: 400;
+    padding-bottom: 1rem;
 }
 
 .categoria {

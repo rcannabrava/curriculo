@@ -235,3 +235,14 @@ body {
         margin-bottom: 3rem;
     }
 }
+
+@media (max-width: 500px) {
+    .portfolio_a img{
+        width: 100%;
+    }
+    
+    .cinema img{
+        height: 100px;
+        bottom: 20%;
+    }
+}
